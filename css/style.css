@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #333333;
+    text-transform: inherit;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #4867AA;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/**************header-section********/
+
+.header-section {
+    background: #4867AA;
+}
+
+.logo {
+    width: 25%;
+    margin-top: 15px;
+    float: left;
+}
+
+.logo img {}
+
+nav {
+    width: 75%;
+    float: left;
+    display: inline-block;
+}
+
+nav p {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+nav input {
+    margin-bottom: 10px;
+}
+
+nav .services {
+    display: inline-block;
+    width: 100%;
+    margin-left: 317px;
+}
+
+nav .services .email {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    color: #fff;
+    padding-left: 30px;
+}
+
+nav .services .password {
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    color: #fff;
+    padding-left: 15px;
+}
+
+nav .services .log {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 36px;
+    font-size: 13px;
+}
+
+nav .services .password .forgotten {
+    color: #9cb4d8;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+nav .services .log .Log-in {
+    color: #fff;
+    display: inline-block;
+    background: #2F5BB9;
+    padding: 5px;
+    box-shadow: inset 0 1px 1px #131519;
+}
+
+nav .services .log .Log-in:hover {
+    color: #fff;
+    background: #193779;
+}
+
+
+/**************header-section********/
+
+
+/**************img-form-section********/
+
+.img-form-section {
+    background: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f4fc+10,adcafb+100,cadaf6+100,dbe6f9+100,cadaf6+100,d4e1f8+100 */
+    background: #f0f4fc;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f0f4fc 10%, #adcafb 100%, #cadaf6 100%, #dbe6f9 100%, #cadaf6 100%, #d4e1f8 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f0f4fc 10%, #adcafb 100%, #cadaf6 100%, #dbe6f9 100%, #cadaf6 100%, #d4e1f8 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f0f4fc 10%, #adcafb 100%, #cadaf6 100%, #dbe6f9 100%, #cadaf6 100%, #d4e1f8 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f4fc', endColorstr='#d4e1f8', GradientType=0);
+    /* IE6-9 */
+    ;
+}
+
+.img-form {}
+
+.img-form .container .img {
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.img-form .container .img p {
+    color: #0E385F;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.img-form .container .img img {}
+
+.img-form .container .form {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.img-form .container .form h1 {
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.img-form .container .form .always {
+    font-size: 22px;
+    margin: 15px 0px;
+    margin-bottom: 25px;
+}
+
+.img-form .container .form .birthday {
+    font-size: 22px;
+    margin: 15px 0px;
+    margin-bottom: 10px;
+}
+
+.img-form .container .form .Create:hover {
+    background: linear-gradient(#79bc64, #578843);
+}
+
+.img-form .container .form form .text {
+    width: 100%;
+}
+
+.img-form .container .form form .text .text-name {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.img-form .container .form form .text .text-name input[type="text"] {
+    margin: 5px 2px;
+    box-sizing: border-box;
+    padding-right: 45px;
+    border-radius: 5px;
+    width: 204px;
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+.img-form .container .form form input[type="password"],
+.img-form .container .form form input[type="email"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.img-form .container .form form input {
+    font-size: 20px;
+    margin: 0;
+    border: 1px solid #bdc7d8;
+}
+
+.img-form .container .form form .day {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.img-form .container .form form .day select {
+    font-size: 15px;
+    display: inline-block;
+}
+
+.img-form .container .form form .why {
+    display: inline-block;
+    display: inline-block;
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-form .container .form form .why span {}
+
+.img-form .container .form form .why span .birth {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.img-form .container .form form .gender {
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    float: left;
+    padding-bottom: 15px;
+}
+
+.img-form .container .form form input[type="radio"] {
+    font-size: 20px;
+    margin: 10px;
+    border: 1px solid #bdc7d8;
+}
+
+.img-form .container .form form .gender span {
+    margin-right: 20px;
+}
+
+.img-form .container .form .Terms {
+    color: #777;
+    font-size: 11px;
+    width: 316px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.img-form .container .form .Create {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+    position: relative;
+    cursor: pointer;
+    padding: 10px 17px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.img-form .container .form .Page {
+    color: #666;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+
+/**************img-form-section********/
+
+
+/**************footer-sectio********/
+
+.footer-sectio {}
+
+.language {
+    margin: 10px;
+}
+
+.language a {
+    padding: 5px;
+    display: inline-block;
+}
+
+.manu {
+    margin: 10px;
+    text-align-last: justify;
+}
+
+.manu a {
+    padding: 5px;
+    display: inline-block;
+}
+
+.copyright {}
+
+.copyright p {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+/**************footer-sectio********/
